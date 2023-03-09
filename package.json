@@ -1,0 +1,29 @@
+{
+  "name": "videojs-hls-test",
+  "version": "1.0.0",
+  "description": "Experimenting with the VideoJS lib to stream HLS video—I wasn't impressed with the DOM controls the VideoJS player injects. 🤮",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.0.1",
+    "video.js": "7.7.5",
+    "videojs-landscape-fullscreen": "11.1.0"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
